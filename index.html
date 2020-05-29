@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!---------------------------------------------LINKS---------------------------------------->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+
+    <!------------------------------------------------------------------------------------------>
+    <title>Registration Form</title>
+</head>
+<body>
+    <!----------------------------------------------FORM CONTAINER------------------------------->
+    <div class="form">
+        <div class="f-box">
+
+            <!-----------------------------------TOGGLE BUTTON------------------------------->
+
+            <div class="button-top">
+                <div id="button"></div>
+                <button type="button" class="toggle-button" onclick="login()">Log In</button>
+                <button type="button" class="toggle-button" onclick="register()">Register</button>
+            </div>
+            
+            <!------------------------------------------------------------------------------->
+
+            <!-------------------------------------SOCIAL LINKS------------------------------->
+            <div class="socials">
+                <img src="facebook.png">
+                <img src="instagram.jpg">
+                <img src="google.png">
+            </div>
+
+            <!--------------------------------------------------------------------------------->
+
+            <!------------------------------------INPUT FIELDS---------------------------------->
+
+            <form id="login" class="inputs">
+                <input type="text" class="input-field" placeholder="Log-In ID" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="submit" class="submit-button">Log In</button>
+            </form>
+            
+            <form id="register" class="inputs">
+                <input type="text" class="input-field" placeholder="Enter Full Names" required>
+                <input type="email" class="input-field" placeholder="Enter Email">
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+                <button type="submit" class="submit-button">Register</button>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="javascript.js"></script>
+
+    <!-------------------------------------------------------------------------------------------->
+    
+</body>
+</html>
